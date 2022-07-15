@@ -9,7 +9,7 @@ namespace MyFileProviderExtension
     public class FileProviderDriver: NSExtensionRequestHandling, INSFileProviderReplicatedExtension
     {
         [Export("initWithDomain:")]
-        public FileProviderDriver()
+        public FileProviderDriver(NSFileProviderDomain domain)
         {
         }
 
