@@ -12,5 +12,7 @@
 	</array>
 	<key>com.apple.security.network.client</key>
 	<true/>
+	<key>com.apple.developer.fileprovider.testing-mode</key>
+	<true/>
 </dict>
 </plist>

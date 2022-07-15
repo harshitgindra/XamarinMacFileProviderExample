@@ -38,7 +38,7 @@
 	<key>NSExtension</key>
 	<dict>
 	    <key>NSExtensionPrincipalClass</key>
-		<string>DocumentActionViewController</string>
+		<string>ActionViewController</string>
 		<key>NSExtensionFileProviderActions</key>
 		<array>
 			<dict>
