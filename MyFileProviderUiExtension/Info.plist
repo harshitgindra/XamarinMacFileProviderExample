@@ -43,14 +43,6 @@
 		<array>
 			<dict>
 				<key>NSExtensionFileProviderActionActivationRule</key>
-				<string>SUBQUERY ( fileproviderItems, $item, $item.userInfo.conflictCount &gt; 0 ).@count == 1</string>
-				<key>NSExtensionFileProviderActionIdentifier</key>
-				<string>com.hgindra.xamarinmacfileproviderexample.ConflictAction</string>
-				<key>NSExtensionFileProviderActionName</key>
-				<string>Other Versions</string>
-			</dict>
-			<dict>
-				<key>NSExtensionFileProviderActionActivationRule</key>
 				<string>TRUEPREDICATE</string>
 				<key>NSExtensionFileProviderActionIdentifier</key>
 				<string>com.hgindra.xamarinmacfileproviderexample.CustomAction</string>
